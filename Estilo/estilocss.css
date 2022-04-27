@@ -120,7 +120,16 @@ header img{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    
+    animation: headerImgs 1s ease 0s 1 normal forwards;
+}
+@keyframes headerImgs {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
 
 .contHeadDrift{
@@ -140,7 +149,16 @@ header img{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    
+    animation: headerImgs 1s ease 0s 1 normal forwards;
+}
+@keyframes headerImgs {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
 
 .contHeadLow{
@@ -177,7 +195,16 @@ header img{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    
+    animation: headerImgs 1s ease 0s 1 normal forwards;
+}
+@keyframes headerImgs {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
 .contHeadWide{
     margin: 50px;
@@ -186,4 +213,19 @@ header img{
 .preg5 h4 {
     font-size: 35px;
     color: #A6290D;
+}
+
+.seccion p{
+    animation: estilo 1s ease 0s 1 normal forwards;
+}
+@keyframes estilo {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }
