@@ -241,6 +241,27 @@ footer .iconos{
     padding-top: 40px;
 }
 
+.navbar{
+    width: 100%;
+}
+
+.collapse ul a{
+    margin: 10px;
+
+}
+
+.btn{
+    color: #A6290D;
+    border-color: #A6290D;
+}
+.btn:hover{
+    color: #A6290D;
+}
+
+
+
+
+
 
 
 @media screen and (max-width: 600px){
@@ -373,10 +394,5 @@ footer .iconos{
     .footer{
         width: 100%;
     }
-    
 
-
-
-
-    
 }
