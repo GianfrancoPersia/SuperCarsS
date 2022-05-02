@@ -255,8 +255,9 @@ footer .iconos{
     border-color: #A6290D;
 }
 .btn:hover{
+    background-color: orange;
+    border-color: #A6290D;
     color: #A6290D;
-    
 }
 
 

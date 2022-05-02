@@ -15,10 +15,9 @@
 <body>
     <header>
         <div class="encabezado">
-            <img class="logoHeader" src="/Imagenes/logoSuper.png" alt="logo">
-            
+            <img class="logoHeader" src="/Imagenes/logoSuper.png" alt="logo">    
         </div>
-        
+
         <nav class="menu">
             <div class="contenedor">
                 <ul>
@@ -29,56 +28,39 @@
                 </ul>
             </div>
         </nav>
-        <div class="clearfix"></div>
     </header>
-
-    <div class="titulo_redes">SEGUINOS EN NUESTRAS REDES</div>
-
-    <div class="contenedor_redes">
-
-        <div class="twitter"><a href="https://twitter.com/home"><img src="/Imagenes/twitter logo.jpg" alt="twitter logo"></a></div>
-
-        <div class="insta"><a href="https://instagram.com"><img src="/Imagenes/instagram logo.jpg" alt="ig logo"></a></div>
-
+    
+    <div class="registration-form">
+        <form>    
+            <div class="form-group">
+                <input type="text" class="form-control item" id="username" placeholder="Username">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control item" id="password" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control item" id="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control item" id="phone-number" placeholder="Phone Number">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control item" id="birth-date" placeholder="Birth Date">
+            </div>
+            <div class="form-group">
+                <button type="button" class="btn btn-block create-account">Create Account</button>
+            </div>
+        </form>
     </div>
-    
-    <br><br><br>
-
-<form class="formulario" action=""> 
-    <div class="registrate"><strong>Registrate para recibir notificaciones</strong></div>
-
-    <div class="masc">masculino<input type="radio"name="sexo"value=hombre/></div>
-    
-    <div class="fem">mujer<input type="radio"name="sexo"value=mujer/><br></div>
-    <br>
-    
-    <div class="nombre">
-        <label for="">Nombre</label>
-        <input type="text"placeholder="escribe tu nombre"required><br>
-    </div>
-    
-    <div class="apellido">
-        <label for="">Apellido</label>
-        <input type="text"placeholder="escribe tu nombre"required><br>
-    </div>
-    
-    <div class="correo">
-        <label for="">Correo electronico</label>
-        <input type="text"placeholder="escribe tu correo"required><br><br>
-    </div>
-
-    <br>
-    
-    <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="escribe algun comentario"></textarea><br><br>
-    <input type="submit"value="Enviar">
-</form>
-<script>$(document).ready(function(){
-    $('#birth-date').mask('00/00/0000');
-    $('#phone-number').mask('0000-0000');
-    })</script>
-<br><br>
-
-
+        
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+        <script src="assets/js/script.js"></script>
+        
+        <script>$(document).ready(function(){
+            $('#birth-date').mask('00/00/0000');
+            $('#phone-number').mask('0000-0000');
+            })</script>
 
 <br>
 <hr>
