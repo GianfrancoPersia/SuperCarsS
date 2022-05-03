@@ -18,7 +18,7 @@ body{
 }
 
 .encabezado{
-    background-image: url(/Imagenes/fondoPAG.jpg);
+    background-image: url(../Imagenes/fondoPAG.jpg);
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -182,6 +182,3 @@ footer .iconos{
     padding-top: 40px;
 }
 
-.form-group .btn:hover{
-    color: orange;
-}
