@@ -77,9 +77,7 @@ header{
     background-size: cover;
     background-attachment: fixed;
     height: 20em;
-
 }
-
 .Magazine{
     margin:50px;
     font-size: 50px;
@@ -87,11 +85,11 @@ header{
     text-align: center;
     color: #A6290D;
 }
-
 html{
     font-size: 130%;
     font-family: 'Anek Gujarati', sans-serif;
 }
+
 .noticias{
     margin: 20px auto;
     display: grid;
@@ -227,32 +225,13 @@ footer i{
 }
 /* FOOTER */
 
-/* NAV BAR */
-.navbar{
-    width: 100%;
-}
-
-.collapse ul a{
-    margin: 10px;
-
-}
-
-.btn{
-    color: #A6290D;
-    border-color: #A6290D;
-}
-.btn:hover{
-    background-color: orange;
-    border-color: #A6290D;
-    color: #A6290D;
-}
-/* NAV BAR */
 
 
 
 
 
 
+/* RESPONSIVE */
 @media screen and (max-width: 600px){
     
     .encabezado{
@@ -385,3 +364,4 @@ footer i{
     }
 
 }
+/* RESPONSIVE */
