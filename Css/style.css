@@ -24,6 +24,7 @@ body{
 header{
     padding: 20px;
     background-color: #D8D8D8;
+    width: 100%!important;
 }
 .navbar a{
     font-size: 20px;
@@ -63,9 +64,9 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: right;
-
 }
 /* HEADER */
+
 
 /* MAIN INDEX */
 .img_fondo{
@@ -189,6 +190,7 @@ html{
 }
 /* MAIN INDEX */
 
+
 /* FOOTER */
 footer{
     background-color: #141517;
@@ -224,6 +226,351 @@ footer i{
     margin-right: 10px;
 }
 /* FOOTER */
+
+/* SECCION AUTOS */
+.seccion{
+    font-family: 'Anek Gujarati', sans-serif;
+    font-size: 40px;
+}
+
+.destacados{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    margin: 20px;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+    width: 1000px;
+    text-align: center;
+    
+}
+.marcaAutos{
+    font-family: 'Orbitron', sans-serif;
+    color: #A6290D;
+    font-size: 35px;
+    text-align: center;
+    background-color: black;
+    margin: 20px;
+    padding: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    justify-content: center;
+}
+
+.contenedor01{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.venta01 img{
+    width: 700px;
+    height: 500px;
+    margin: 20px 60px 20px 20px;
+    object-fit: cover;
+}
+
+.venta02 img{
+    width: 700px;
+    height: 500px;
+    margin: 20px;
+    object-fit: cover;
+}
+.contenedor02{
+    margin-top: 70px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.venta03 img{
+    width: 700px;
+    height: 500px;
+    margin: 20px 60px 20px 20px;
+}
+.venta04 img{
+    width: 700px;
+    height: 500px;
+    margin: 20px;
+    object-fit: cover;
+}
+.contenedor03{
+    margin-top: 70px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.venta05 img{
+    width: 700px;
+    height: 500px;
+    margin: 20px;
+    object-fit: cover;
+}
+
+.contenedor04{
+    margin-top: 70px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.venta06 img{
+    width: 700px;
+    height: 500px;
+    margin: 20px;
+    object-fit: cover;
+}
+
+.galeria{
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(9, auto);
+}
+
+.contenedor01,.contenedor02,.contenedor03,.contenedor04{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.marcaAutos{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.marcaAutos:hover{
+    transform: scale(1.5);
+    transition: 1s;
+    
+}
+
+.venta01:hover{
+    transform: 1.1;
+}
+.destacados:hover{
+    color: #F29F05;
+}
+.venta01:hover{
+    transform: translate(0px,-10px);
+}
+.venta02:hover{
+    transform: translate(0px,-10px);
+}
+.venta03:hover{
+    transform: translate(0px,-10px);
+}
+.venta04:hover{
+    transform: translate(0px,-10px);
+}
+.venta05:hover{
+    transform: translate(0px,-10px);
+}
+.venta06:hover{
+    transform: translate(0px,-10px);
+}
+/* SECCION AUTOS */
+
+
+/* SECCION ESTILOS */
+.seccion{
+    font-family: 'Anek Gujarati', sans-serif;
+    font-size: 40px;
+}
+
+.drift{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    color: #A6290D;
+    font-size: 50px;
+}
+
+.headerDrift{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    animation: headerImgs 1s ease 0s 1 normal forwards;
+}
+
+@keyframes headerImgs {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.contHeadDrift{
+    margin: 50px;
+}
+
+.preg1 h4 {
+    font-size: 35px;
+    color: #A6290D;
+}
+.preg2 h4 {
+    font-size: 35px;
+    color: #A6290D;
+}
+
+.headerLowrider{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    animation: headerImgs 1s ease 0s 1 normal forwards;
+}
+@keyframes headerImgs {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+
+.contHeadLow{
+    margin: 50px;
+}
+
+.preg3 h4 {
+    font-size: 35px;
+    color: #A6290D;
+}
+
+.preg4 h4 {
+    font-size: 35px;
+    color: #A6290D;
+}
+
+.lowrider{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: #A6290D;
+    font-size: 50px;
+}
+
+.widebody{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: #A6290D;
+    font-size: 50px;
+}
+
+.headerWide{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    animation: headerImgs 1s ease 0s 1 normal forwards;
+}
+@keyframes headerImgs {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+.contHeadWide{
+    margin: 50px;
+}
+
+.preg5 h4 {
+    font-size: 35px;
+    color: #A6290D;
+}
+
+.seccion p{
+    animation: estilo 1s ease 0s 1 normal forwards;
+}
+
+
+
+
+@keyframes estilo {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+/* SECCION ESTILOS */
+
+
+/* FORMULARIO */
+.registration-form{
+	padding: 50px 0;
+}
+
+.registration-form form{
+    background-color: #fff;
+    max-width: 600px;
+    margin: auto;
+    padding: 50px 70px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.registration-form .form-icon{
+	text-align: center;
+    background-color: #5891ff;
+    border-radius: 50%;
+    font-size: 40px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 50px;
+    line-height: 100px;
+}
+
+.registration-form .item{
+	border-radius: 20px;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+}
+
+.registration-form .create-account{
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #5791ff;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+
+.registration-form .social-icons{
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+
+
+@media (max-width: 576px) {
+    .registration-form form{
+        padding: 50px 20px;
+    }
+
+    .registration-form .form-icon{
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+        line-height: 70px;
+    }
+}
+/* FORMULARIO */
 
 
 
