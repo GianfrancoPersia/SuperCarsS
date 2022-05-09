@@ -67,12 +67,9 @@ header{
 }
 /* HEADER */
 
-.clearfix{
-    clear: both;
-}
-
+/* MAIN INDEX */
 .img_fondo{
-    margin-top: 30px;
+
     padding-top: 400px;
     padding-bottom: 400px;
     background-image: url(../Imagenes/Img\ Header.jpg);
@@ -192,7 +189,7 @@ html{
     width: 520px;
     height: 320px;
 }
-
+/* MAIN INDEX */
 
 /* FOOTER */
 footer{
@@ -230,6 +227,7 @@ footer i{
 }
 /* FOOTER */
 
+/* NAV BAR */
 .navbar{
     width: 100%;
 }
@@ -248,7 +246,7 @@ footer i{
     border-color: #A6290D;
     color: #A6290D;
 }
-
+/* NAV BAR */
 
 
 
