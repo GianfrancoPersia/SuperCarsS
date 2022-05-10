@@ -490,9 +490,6 @@ footer i{
     animation: estilo 1s ease 0s 1 normal forwards;
 }
 
-
-
-
 @keyframes estilo {
 	0% {
 		opacity: 0;
