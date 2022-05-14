@@ -1,15 +1,25 @@
 {
-  "name": "desafio-01",
+  "name": "spsporting",
   "version": "1.0.0",
-  "description": "",
+  "description": "sass",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss assets/scss/estilo.scss Css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GianfrancoPersia/SuperCarsS.git"
+  },
+  "author": "Gianfranco Persia",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GianfrancoPersia/SuperCarsS.git"
+  },
+  "homepage": "https://github.com/GianfrancoPersia/SuperCarsS#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.15"
   }
 }
