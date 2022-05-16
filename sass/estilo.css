@@ -1,0 +1,467 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+/* HEADER */
+.logoH {
+  height: 80px;
+  width: 180px;
+}
+
+.cont {
+  display: flex;
+}
+
+.form-control {
+  margin-left: 20px;
+}
+
+.navbar {
+  margin-left: 20px;
+}
+.navbar a {
+  font-size: 20px;
+  color: black;
+}
+
+header {
+  padding: 20px;
+  background-color: #D8D8D8;
+  width: 100% !important;
+}
+
+.navbar a:hover {
+  color: #F20300;
+}
+
+.btn {
+  color: #F20300;
+  border-color: #F20300;
+}
+
+.btn:hover {
+  color: white;
+  border-color: #F20300;
+  background-color: #F20300;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(22, 22, 22);
+}
+
+.navbar-light .navbar-brand {
+  color: black;
+  font-size: 25px;
+}
+
+.navbar-light .navbar-brand:hover {
+  font-size: 27px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+  background-color: #F20300;
+}
+
+.collapse a {
+  margin-left: 15px;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+
+/* HEADER */
+/* MAIN INDEX */
+.img_fondo {
+  padding-top: 400px;
+  padding-bottom: 400px;
+  background-image: url(/Imagenes/Img\ Header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 20em;
+}
+
+.Magazine {
+  margin: 50px;
+  font-size: 50px;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  color: #A6290D;
+}
+
+html {
+  font-size: 130%;
+  font-family: "Anek Gujarati", sans-serif;
+}
+
+.noticias {
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+}
+
+.noticias > div {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.noticias .titulo01 {
+  color: black;
+  font-size: 20px;
+  padding: 30px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.noticias .noti01 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.noticias .titulo02 {
+  color: black;
+  font-size: 20px;
+  padding: 30px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.noticias .noti02 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.noticias .titulo03 {
+  color: black;
+  font-size: 20px;
+  padding: 30px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.noticias .noti02 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.noti01 img {
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+  object-fit: cover;
+  position: center;
+  transition: width 1s, height 1s;
+}
+
+.noti01 img:hover {
+  width: 520px;
+  height: 320px;
+}
+
+.noti02 img {
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+  object-fit: cover;
+  position: center;
+  transition: width 1s, height 1s;
+}
+
+.noti02 img:hover {
+  width: 520px;
+  height: 320px;
+}
+
+.noti03 img {
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+  object-fit: cover;
+  position: center;
+  transition: width 1s, height 1s;
+}
+
+.noti03 img:hover {
+  width: 520px;
+  height: 320px;
+}
+
+/* MAIN INDEX */
+/* FOOTER */
+footer {
+  background-color: #141517;
+  color: white;
+  text-align: center;
+  height: 255px;
+}
+
+.listServ {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+.listServ li {
+  text-decoration: none;
+}
+
+.spfooter {
+  font-family: "Orbitron", sans-serif;
+  padding: 15px;
+  font-size: 22px;
+}
+
+.redes {
+  margin: 10px;
+}
+
+.copy {
+  font-size: 16px;
+  padding-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+footer i {
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* FOOTER */
+/* SECCION AUTOS */
+.seccion {
+  font-family: "Anek Gujarati", sans-serif;
+  font-size: 40px;
+}
+
+.destacados {
+  font-family: "Orbitron", sans-serif;
+  font-size: 40px;
+  margin: 20px;
+  background-color: antiquewhite;
+  padding: 20px;
+  border-radius: 10px;
+  width: 1000px;
+  text-align: center;
+}
+
+.marcaAutos {
+  font-family: "Orbitron", sans-serif;
+  color: #A6290D;
+  font-size: 35px;
+  text-align: center;
+  background-color: black;
+  margin: 20px;
+  padding: 10px;
+  margin-left: 400px;
+  margin-right: 400px;
+  justify-content: center;
+}
+
+.contenedor01 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.venta01 img {
+  width: 700px;
+  height: 500px;
+  margin: 20px 60px 20px 20px;
+  object-fit: cover;
+}
+
+.venta02 img {
+  width: 700px;
+  height: 500px;
+  margin: 20px;
+  object-fit: cover;
+}
+
+.contenedor02 {
+  margin-top: 70px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.venta03 img {
+  width: 700px;
+  height: 500px;
+  margin: 20px 60px 20px 20px;
+}
+
+.venta04 img {
+  width: 700px;
+  height: 500px;
+  margin: 20px;
+  object-fit: cover;
+}
+
+.contenedor03 {
+  margin-top: 70px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.venta05 img {
+  width: 700px;
+  height: 500px;
+  margin: 20px;
+  object-fit: cover;
+}
+
+.contenedor04 {
+  margin-top: 70px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.venta06 img {
+  width: 700px;
+  height: 500px;
+  margin: 20px;
+  object-fit: cover;
+}
+
+.galeria {
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(9, auto);
+}
+
+.contenedor01, .contenedor02, .contenedor03, .contenedor04 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.marcaAutos {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.marcaAutos:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+
+.venta01:hover {
+  transform: 1.1;
+}
+
+.destacados:hover {
+  color: #F29F05;
+}
+
+.venta01:hover {
+  transform: translate(0px, -10px);
+}
+
+.venta02:hover {
+  transform: translate(0px, -10px);
+}
+
+.venta03:hover {
+  transform: translate(0px, -10px);
+}
+
+.venta04:hover {
+  transform: translate(0px, -10px);
+}
+
+.venta05:hover {
+  transform: translate(0px, -10px);
+}
+
+.venta06:hover {
+  transform: translate(0px, -10px);
+}
+
+/* SECCION AUTOS */
+/* SECCION ESTILOS */
+.seccion {
+  font-family: "Anek Gujarati", sans-serif;
+  font-size: 40px;
+}
+
+.drift {
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  color: #A6290D;
+  font-size: 50px;
+}
+
+.headerDrift {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  animation: headerImgs 1s ease 0s 1 normal forwards;
+}
+
+@keyframes headerImgs {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.contHeadDrift {
+  margin: 50px;
+}
+
+.preg1 h4 {
+  font-size: 35px;
+  color: #A6290D;
+}
+
+.preg2 h4 {
+  font-size: 35px;
+  color: #A6290D;
+}
+
+.headerLowrider {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  animation: headerImgs 1s ease 0s 1 normal forwards;
+}
+
+@keyframes headerImgs {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
