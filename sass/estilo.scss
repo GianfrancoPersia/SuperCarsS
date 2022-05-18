@@ -1,5 +1,3 @@
-$colormain: #F20300;
-
 
 * {
     padding: 0;
@@ -75,7 +73,7 @@ header{
 
     padding-top: 400px;
     padding-bottom: 400px;
-    background-image: url(/Imagenes/Img\ Header.jpg);
+    background-image: url(/Imagenes/Img/Header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -433,3 +431,25 @@ footer i{
 	}
 }
 
+@mixin centrar {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+
+$PaletaDeColores:(
+    color-hover-nav: #A6290D,
+    back-footer:#141517,
+    c-destacados-hover:#F29F05,
+    colormain: #F20300,
+);
+
+@mixin cont-noticias {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    object-fit: cover;
+    position: center;
+    transition: width 1s, height 1s;
+}
