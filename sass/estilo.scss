@@ -69,16 +69,11 @@ header{
 /* HEADER */
 
 /* MAIN INDEX */
-.img_fondo{
 
-    padding-top: 400px;
-    padding-bottom: 400px;
-    background-image: url(/Imagenes/Img/Header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 20em;
+.imgcontH img{
+    width: 100%;
 }
+
 .Magazine{
     margin:50px;
     font-size: 50px;

@@ -82,14 +82,8 @@ header {
 
 /* HEADER */
 /* MAIN INDEX */
-.img_fondo {
-  padding-top: 400px;
-  padding-bottom: 400px;
-  background-image: url(/Imagenes/Img\ Header.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 20em;
+.imgcontH img{
+  width: 100%;
 }
 
 .Magazine {
@@ -108,9 +102,12 @@ html {
 .noticias {
   margin: 20px auto;
   display: grid;
-  grid-gap: 40px;
+  grid-gap: 0px;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: repeat(2, auto);
+}
+.noticias p{
+  margin-bottom: 0px;
 }
 
 .noticias > div {
@@ -120,7 +117,7 @@ html {
 
 .noticias .titulo01 {
   color: black;
-  font-size: 20px;
+  font-size: 15px;
   padding: 30px;
   grid-column-start: 1;
   grid-column-end: 2;
@@ -136,7 +133,7 @@ html {
 
 .noticias .titulo02 {
   color: black;
-  font-size: 20px;
+  font-size: 15px;
   padding: 30px;
   grid-column-start: 2;
   grid-column-end: 3;
@@ -152,7 +149,7 @@ html {
 
 .noticias .titulo03 {
   color: black;
-  font-size: 20px;
+  font-size: 15px;
   padding: 30px;
   grid-column-start: 3;
   grid-column-end: 4;
@@ -167,8 +164,8 @@ html {
 }
 
 .noti01 img {
-  width: 500px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
   margin: 20px;
   object-fit: cover;
   position: center;
@@ -176,13 +173,13 @@ html {
 }
 
 .noti01 img:hover {
-  width: 520px;
-  height: 320px;
+  width: 320px;
+  height: 220px;
 }
 
 .noti02 img {
-  width: 500px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
   margin: 20px;
   object-fit: cover;
   position: center;
@@ -190,13 +187,13 @@ html {
 }
 
 .noti02 img:hover {
-  width: 520px;
-  height: 320px;
+  width: 320px;
+  height: 220px;
 }
 
 .noti03 img {
-  width: 500px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
   margin: 20px;
   object-fit: cover;
   position: center;
@@ -204,8 +201,8 @@ html {
 }
 
 .noti03 img:hover {
-  width: 520px;
-  height: 320px;
+  width: 320px;
+  height: 220px;
 }
 
 /* MAIN INDEX */
