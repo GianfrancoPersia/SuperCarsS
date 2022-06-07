@@ -35,7 +35,7 @@ header{
     color: #F20300;
 }
 .btn {
-    color: $colormain;
+    color: map-get($map: $paleta, $key: 'primario' );
     border-color: $colormain;
 }
 .btn:hover{
@@ -433,11 +433,11 @@ footer i{
 }
 
 
-$PaletaDeColores:(
-    color-hover-nav: #A6290D,
-    back-footer:#141517,
-    c-destacados-hover:#F29F05,
-    colormain: #F20300,
+$paleta:(
+    'secundario': #A6290D,
+    'backnegro':#141517,
+    'hoverN':#F29F05,
+    'primario': #F20300,
 );
 
 @mixin cont-noticias {
@@ -448,3 +448,6 @@ $PaletaDeColores:(
     position: center;
     transition: width 1s, height 1s;
 }
+
+
+
