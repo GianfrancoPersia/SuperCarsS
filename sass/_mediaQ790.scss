@@ -1,0 +1,119 @@
+@media screen and (max-width : 790px) {
+    .noticias{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(7, auto);
+        grid-gap: 10px;
+        margin:0px;
+        @include centrar
+    }
+    .noticias .titulo01{  
+        color:black;
+        font-size:15px;
+        grid-column-start:1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 2 ;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        margin: 0px;
+    }
+    .noticias .noti01{
+        grid-row-start: 2;
+        grid-row-end: 3 ;
+    }
+    
+    .noticias .titulo02{
+        color:black;
+        font-size: 15px;
+        grid-column-start:1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 4 ;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        margin: 0px;
+    }
+    .noticias .noti02{
+        grid-row-start: 4;
+        grid-row-end: 5 ;
+    }
+    
+    .noticias .titulo03{
+        color:black;
+        font-size: 15px;
+        grid-column-start:1;
+        grid-column-end:1;
+        grid-row-start: 5;
+        grid-row-end: 6 ;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        margin: 0px;
+    }
+    .noticias .noti03{
+        grid-row-start: 6;
+        grid-row-end: 7 ;
+    }
+
+    .noti01 img{
+        width: 350px;
+        height: 200px;
+        margin: 0px;
+        object-fit: cover;
+        position: center;
+        transition: width 1s, height 1s;    
+    }
+    .noti01 img:hover{
+        width: 360px;
+        height: 210px;
+    }
+    
+    .noti02 img{
+        width: 350px;
+        height: 200px;
+        margin: 0px;
+        object-fit: cover;
+        position: center;
+        transition: width 1s, height 1s;        
+    }
+    .noti02 img:hover{
+        width: 360px;
+        height: 210px;
+    }
+    
+    .noti03 img{
+        width: 350px;
+        height: 200px;
+        margin: 0px;
+        object-fit: cover;
+        position: center;
+        transition: width 1s, height 1s; 
+    }
+    .noti03 img:hover{
+        width: 360px;
+        height: 210px;
+    }
+    .navbar{
+        display: flex;
+    }
+
+    .Magazine {
+        margin:30px;
+        font-size: 30px;
+    }
+
+    .button{
+        margin: 0px;
+    }
+    .registration-form{
+        margin: 20px;
+    }
+    .form-group{
+        margin-left: 0%;
+    }
+
+
+}
